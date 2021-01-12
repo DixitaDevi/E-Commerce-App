@@ -20,6 +20,10 @@ const orderSchema = new Schema({
     status: {
         type: String,
         default: 'order_placed'
+    },
+    takeAwayTime: {
+        type: String,
+        default: 'To be set soon..'
     }
 
 }, {timestamps: true});
